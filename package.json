@@ -1,0 +1,29 @@
+{
+  "name": "SeoulWeather",
+  "version": "1.0.0",
+  "description": "서울 날씨를 확인할 수 있는 사이트",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsongs/SeoulWeather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Microsongs/SeoulWeather/issues"
+  },
+  "homepage": "https://github.com/Microsongs/SeoulWeather#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "~1.14.2",
+    "cheerio": "^1.0.0-rc.3",
+    "ejs": "^2.5.9",
+    "express": "^4.13.4",
+    "express-session": "^1.17.1",
+    "express_session": "~1.13.0"
+  }
+}
