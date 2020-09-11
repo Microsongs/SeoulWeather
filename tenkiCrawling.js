@@ -3,9 +3,7 @@ const cheerio = require("cheerio");
 const { inherits } = require("util");
 const log = console.log;
 
-let tenkiData = [
-
-];
+let tenkiData = [];
 
 const getHTML = async() => {
     try{
@@ -23,7 +21,7 @@ function init(){
             // html의 body 안으로 들어가 테이블의 값을 꺼내옴
             const $bodyList = $('.world-live-forecast-table tbody tr:nth-of-type(2)');
             
-            console.log($bodyList.find('td .world-live-entry-table tbody tr:nth-of-type(2) td').text());
+            //console.log($bodyList.find('td .world-live-entry-table tbody tr:nth-of-type(2) td').text());
             // 가져온 데이터에서 각각 꺼내옴
             /*
             $bodyList = function(i, elem){
