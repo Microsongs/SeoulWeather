@@ -22,6 +22,9 @@ function init(){
             const $bodyList = $('.main_info');
 
             krWeather['temperature'] = $bodyList.find('.info_data .info_temperature .todaytemp').text()+"℃";
+            krWeather['img_src'] = $bodyList.find('span').attr('src');
+            krWeather['img_a'] = $bodyList.find('span').attr('href');
+            krWeather['img_b'] = $bodyList.find('span').attr('alt');
             const data = krWeather;
             return data;
         }).then(res => log(res));

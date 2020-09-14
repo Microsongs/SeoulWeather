@@ -24,7 +24,7 @@ function init(){
             //console.log($bodyList.find('td').text());
             // 가져온 데이터에서 각각 꺼내옴
             NorwayWeather['temperature'] = $bodyList.find('tbody tr:nth-of-type(5) td:nth-of-type(1) span').text()+"℃";
-
+            NorwayWeather['img_url'] = $bodyList.find('tbody tr:nth-of-type(5) td:nth-of-type(1) figure svg use ').attr('src');
             const data = NorwayWeather;
             return data;
         }).then(res => log(res));

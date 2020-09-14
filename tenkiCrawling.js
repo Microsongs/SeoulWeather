@@ -30,6 +30,8 @@ function init(){
                 tenkiData[lowTemperature] = elem.find('td:nth-of-type(2) .world-forecast-entry-table tbody tr:nth-of-type(2) .low-temp').text();
             };
             */
+        tenkiData['img_url'] = $bodyList.find('td .world-live-entry-table tbody tr td img').attr('src');
+        tenkiData['img_alt'] = $bodyList.find('td .world-live-entry-table tbody tr td img').attr('alt');
         tenkiData['temperature'] = $bodyList.find('td .world-live-entry-table tbody tr:nth-of-type(2) td:nth-of-type(1)').text();
         tenkiData['highTemperature'] = $bodyList.find('td:nth-of-type(2) .world-forecast-entry-table tbody tr .high-temp').text();
         tenkiData['lowTemperature'] = $bodyList.find('td:nth-of-type(2) .world-forecast-entry-table tbody tr:nth-of-type(2) .low-temp').text();
