@@ -1,6 +1,25 @@
 .js-clock{
-    color:white;
+    /*Zborder:1px solid;*/
+    border-color:white;
+    float:right;
+    color:#333333;
+}
+.header-nav{
+    margin-bottom:0;
+    background-color:#fff;
+    border-bottom:0;
+}
+h4{
+    font-size:2em;
+}
+.header-main{
+    float:left;
+}
+.header-center{
+    /*position:absolute;*/
+    left:25%;
 }
 body{
-    background-color:#373838;
+    /*background-color:#373838;*/
+    background-color:#eeeeee;
 }
