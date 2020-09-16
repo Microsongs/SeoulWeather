@@ -2,7 +2,7 @@
 서울 날씨를 확인할 수 있는 사이트
 
 ## 진행 정보
-![캡처](https://user-images.githubusercontent.com/38483113/93158610-6a841080-f747-11ea-9f13-5e7b1a62f994.PNG)
+![캡처](https://user-images.githubusercontent.com/38483113/93282210-d4182380-f808-11ea-97c9-c7b89c43e0b7.PNG)
 <br>
 
 ## 날씨 진행 정보
