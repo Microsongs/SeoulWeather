@@ -2,11 +2,10 @@
     <head>
         <meta charset="utf-8">
         <title>Song's Blog</title>
-
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css"/>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     </head>
     <body>
         <header class="navbar navbar-static-top header-nav" id="top">
@@ -19,29 +18,60 @@
                 <nav calss="collapse navbar-collapse bs-navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href=../Introduction>Song 소개</a>
+                            <a href="../travel.html">여행기</a>
                         </li>
                         <li>
-                            <a href=../SeoulWeather>Seoul 날씨</a>
+                            <a href="../SeoulWeather.html">Seoul 날씨</a>
                         </li>
                         <li>
-                            <a href="../AnyQuestion">무엇이든 물어보세요</a>
+                            <!--<a href="../AnyQuestion">무엇이든 물어보세요</a>-->
+                            <a href="../question.html">무엇이든 물어보세요</a>
                         </li>
                     </ul>
                     <div class="nav navbar-nav navbar-right js-clock ">
                         <h4>00:00</h4>
                     </div>
                 </nav>
-
             </div>
         </header>
         <nav>
-
+            <div class="imageCase">
+                <h1 class="imageH1">사진목록</h1>
+                    <div id="slider__item" style="max-width:100%">
+                    <div class="slider__item"><img src="images/1.jpg" width=400 height=300/> </div>
+                    <div class="slider__item"><img src="images/2.jpg" width=400 height=300></div>
+                    <div class="slider__item"><img src="images/3.jpg" width=400 height=300></div>
+                    <div class="slider__item"><img src="images/4.jpg" width=400 height=300></div>
+                    <div class="slider__item"><img src="images/5.jpg" width=400 height=300></div>
+                </div>
+            </div>
+            <div class="Song-intro">
+                <div class="Song-intro-img">
+                    <img src="images/Song.jpg" width=200 height=270/>
+                </div>
+                <div class="Song-intro-intro">
+                    <h2><br>안녕하세요! Song 입니다.</h2>
+                    <p>
+                        안녕하세요. 이 블로그를 운영하고 있는 Song입니다. 현재 컴퓨터공학과에서 공부하고 있으며, 웹,
+                        프로그래밍 등의 많은 시도를 해보고 있습니다.
+                    </p>
+                    <p>
+                        본 블로그를 처음 만든 목적은 현재 대한민국에서
+                        날씨 정보에 대한 불신이 많아지게 되었고, 그 것을 해결하기 위해 세계 각지의 기상청 홈페이지의
+                        데이터를 가져와 날씨 정보를 제공하여 가장 합리적인 날씨를 확인할 수 있도록 하는 것이었고, 그
+                        것에 더해 저에 대한 소개를 하는 것을 목표로 하였습니다.
+                    </p>
+                    <p>
+                        아직 개발중인 것이 많지만, 부디 잘 이용해주시기 바랍니다.
+                    </p>
+                </div>
+            </div>
         </nav>
-        <div id="main-column">
+        <section>
 
-        </div>
+        </section>
         <footer></footer>
+        <script src="imageCarousel.js"></script>
         <script src="clock.js"></script>
         <script src="index.js"></script>   
         <!--
