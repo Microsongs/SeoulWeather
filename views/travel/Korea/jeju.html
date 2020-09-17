@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Introduction</title>
+        <title>제주 여행</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="style.css"/>
@@ -36,7 +36,7 @@
         </header>
         <nav id = "travelTopMenu">
             <ul>
-                <li><a class = "menuLink" href="../travel.html">대한민국</a></li>
+                <li><a class = "menuLink" href="../travel.html">한국</a></li>
                 <li><a class = "menuLink" href="#">대만</a></li>
                 <li><a class = "menuLink" href="#">홍콩</a></li>
                 <li><a class = "menuLink" href="#">일본</a></li>
@@ -46,7 +46,7 @@
                 <li><a class = "menuLink" href="#">기타</a></li>
             </ul>
         </nav>
-        <h2 class="travelList">대한민국 여행지 목록</h2>
+        <h2 class="travelList">제 주</h2>
         <aside id = "travelLeftMenu">
             <ul>
                 <li><a class="menuLink" href="../Yeosu.html">여수</a></li>
@@ -54,9 +54,36 @@
                 <li><a class="menuLink" href="../Jeju.html">제주</a></li>
             </ul>
         </aside>
-        <section style="top:30%; left:50%; position:absolute; margin-left:-15%; margin-top:-3%">
-            <img src="images/koreanpeninsula.jpg">
+        <section class="travelSection">
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="padding:10px;"><h2 class="travelInfo">여행지도</h2></td>
+                        <td style="padding:10px;"><h2 class="travelInfo">여행 사진첩</h2></td>
+                    </tr>
+                    <tr>
+                        <td style="padding:10px;">
+                            <div id="map" style="max-width:100%";>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d850967.5437807515!2d126.01258573433172!3d33.57696132469997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350ce3544cc84045%3A0x66bc36d2981ebf31!2z7KCc7KO87Yq567OE7J6Q7LmY64-E!5e0!3m2!1sko!2skr!4v1600309473025!5m2!1sko!2skr" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                        </td>
+                        <td style="padding:10px; width:500px;">
+                            <div class="imageCase" style="height:350px"></div>
+                                <div id="slider__item" style="max-width:100%">
+                                    <div class="slider__item"><img src="images/1.jpg" width=500 height=350/> </div>
+                                    <div class="slider__item"><img src="images/2.jpg" width=500 height=350></div>
+                                    <div class="slider__item"><img src="images/3.jpg" width=500 height=350></div>
+                                    <div class="slider__item"><img src="images/4.jpg" width=500 height=350></div>
+                                    <div class="slider__item"><img src="images/5.jpg" width=500 height=350></div>
+                                </div>
+                            </td>
+                        </div>
+                    </tr>
+                </tbody>
+            </table>
+
         </section>
+        <script src="imageCarousel.js"></script>
         <script src="clock.js"></script>
     </body>
 </html>

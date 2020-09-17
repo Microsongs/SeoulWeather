@@ -23,6 +23,14 @@ let server = app.listen(3000, function(){
 app.use(express.static('views'));
 app.use(express.static('public'));
 app.use(express.static('public/css'));
-app.use(express.static('public.images'));
+app.use(express.static('public/images'));
+app.use(express.static('views/travel'));
+app.use(express.static('views/travel/canada'));
+app.use(express.static('views/travel/hongkong'));
+app.use(express.static('views/travel/japan'));
+app.use(express.static('views/travel/korea'));
+app.use(express.static('views/travel/singapore'));
+app.use(express.static('views/travel/taiwan'));
+app.use(express.static('views/travel/thailand'));
 app.use('/static', express.static(__dirname + '/public/css'));
 app.use('/static', express.static(__dirname + '/public'));

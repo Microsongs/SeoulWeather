@@ -108,3 +108,81 @@ p{
     opacity: 1;
     transform: none;
 }
+
+#travelTopMenu{
+    height :30px;
+    width:1400px;
+}
+
+#travelTopMenu ul li{
+    list-style:none; /* 점 삭제 */
+    color:white;
+    background-color:#2d2d2d;
+    float:left;
+    line-height:30px;
+    vertical-align: middle; /*세로 가운데정렬*/
+    text-align:center;
+}
+
+#travelTopMenu .menuLink{
+    text-decoration: none; /*a태그 강조 삭제*/
+    color:white;
+    display:block;
+    width:150px;
+    font-size:12px;
+    font-weight:bold;
+    font-family:"MS PGothic", Dotum, Arial;
+}
+/* 마우스 올라왔을때*/
+#travelTopMenu .menuLink:hover{ 
+    color:red;
+    background-color:#4d4d4d;
+}
+
+#travelLeftMenu{
+    width:1200px;
+    float:center;
+}
+
+#travelLeftMenu ul li{
+    list-style:none; /* 점 삭제 */
+    color:white;
+    background-color:#56B156;
+    float:left;
+    line-height:30px;
+    vertical-align: middle; /*세로 가운데정렬*/
+    text-align:center;
+}
+
+#travelLeftMenu .menuLink{
+    text-decoration: none; /*a태그 강조 삭제*/
+    color:white;
+    display:block;
+    width:150px;
+    font-size:12px;
+    font-weight:bold;
+    font-family:"MS PGothic", Dotum, Arial;
+}
+/* 마우스 올라왔을때*/
+#travelLeftMenu .menuLink:hover{ 
+    color:black;
+    background-color:#D1E9C7;
+}
+
+.travelSection{
+    padding-left : 30px;
+    padding-top : 30px;
+}
+
+.travelList{
+    font-family: "맑은고딕";
+    color: skyblue;
+    padding-left:30px;
+}
+
+.travelInfo{
+    font-family: "맑은고딕";
+    color: black;
+    text-align:center;
+    vertical-align:center;
+}
