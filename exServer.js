@@ -34,3 +34,18 @@ app.use(express.static('views/travel/taiwan'));
 app.use(express.static('views/travel/thailand'));
 app.use('/static', express.static(__dirname + '/public/css'));
 app.use('/static', express.static(__dirname + '/public'));
+
+module.exports = function(app, fs) {
+    app.get('/public',function(feq,res){
+        fs.readFile("tenkCrawling.js",'utf8',function(err, data){
+            console.log(data);
+            res.end(data);
+        });
+        /*
+        fs.readFile(__dirname + "/../public/"+"tenkCrawling.js",'utf8',function(err, data){
+            console.log(data);
+            res.end(data);
+        });
+        */
+    })
+}
